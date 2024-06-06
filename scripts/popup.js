@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+        const currentTab = tabs[0];
+        if (!currentTab.url.startsWith('https://classroom.google.com/')) {
+            document.body.textContent = 'This extension only works on Google Classroom.';
+            return;
+        }
         chrome.tabs.sendMessage(tabs[0].id, { action: "getDriveLinks" }, function (response) {
             if (response && response.files.length > 0) {
                 const fileList = document.getElementById('fileList');
@@ -8,8 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     const checkbox = document.createElement('input');
                     checkbox.type = 'checkbox';
                     checkbox.value = file.link;
-                    li.textContent = file.name;
+
+                    const text = document.createElement('span');
+                    text.textContent = file.name;
+
                     li.appendChild(checkbox);
+                    li.appendChild(text);
                     fileList.appendChild(li);
                 });
 
@@ -28,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
                 });
             } else {
-                document.getElementById('fileList').textContent = 'No Google Drive files found.';
+                document.getElementById('fileList').textContent = 'No Google Drive files found. Try refreshing your page.';
             }
         });
     });

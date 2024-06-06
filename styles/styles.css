@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    font-family: 'Inter';
+    font-size: medium;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+}
+
+li span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    accent-color: rgb(125, 229, 125);
+}
+
+li input[type="checkbox"]:checked {
+    background-color: greenyellow;
+}
+
+.primary-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.primary-btn:hover {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-left {
+    margin-right: 5px;
+}
+
+.flex-btn {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 350px;
+    padding: 10px;
+    background-color: #e1e3ff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

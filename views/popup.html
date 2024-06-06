@@ -2,25 +2,17 @@
 <html>
   <head>
     <title>Drive File Downloader</title>
-    <style>
-      body {
-        width: 300px;
-        padding: 10px;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-      }
-      li {
-        margin: 5px 0;
-      }
-    </style>
+    <link rel="stylesheet" href="../styles/styles.css" />
   </head>
   <body>
-    <h3>Drive Files:</h3>
+    <h3 style="font-size: large;">Available Files:</h3>
     <ul id="fileList"></ul>
-    <button id="downloadSelected">Download Selected</button>
-    <button id="downloadAll">Download All</button>
+    <div class="flex-btn">
+      <button id="downloadSelected" class="primary-btn btn-left">
+        Download Selected
+      </button>
+      <button id="downloadAll" class="primary-btn">Download All</button>
+    </div>
     <script src="../scripts/popup.js"></script>
   </body>
 </html>
