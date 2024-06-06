@@ -5,8 +5,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 const fileList = document.getElementById('fileList');
                 response.files.forEach(file => {
                     const li = document.createElement('li');
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.value = file.link;
                     li.textContent = file.name;
+                    li.appendChild(checkbox);
                     fileList.appendChild(li);
+                });
+
+                document.getElementById('downloadSelected').addEventListener('click', function () {
+                    Array.from(fileList.children).forEach(li => {
+                        const checkbox = li.querySelector('input[type="checkbox"]');
+                        if (checkbox.checked) {
+                            chrome.downloads.download({ url: checkbox.value, filename: li.textContent });
+                        }
+                    });
                 });
 
                 document.getElementById('downloadAll').addEventListener('click', function () {
