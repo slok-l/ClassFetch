@@ -45,7 +45,7 @@ li input[type="checkbox"]:checked {
 }
 
 .btn-left {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .flex-btn {
@@ -63,4 +63,24 @@ body {
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.header-icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height: fit-content; */
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.header-icon>img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.header-icon>h1 {
+    font-size: large;
 }
