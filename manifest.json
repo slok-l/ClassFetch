@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Classroom Downloader",
+  "name": "ClassFetch",
   "version": "1.0",
   "permissions": ["activeTab", "downloads"],
   "background": {
