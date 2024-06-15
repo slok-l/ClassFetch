@@ -1,4 +1,4 @@
-![ClassFetch](./icons/128.png)
+![ClassFetch](./icons/48.png)
 
 # ClassFetch
 
