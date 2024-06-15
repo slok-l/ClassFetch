@@ -4,6 +4,8 @@
 
 A browser extension that allows you to bulk download files from Google Classroom in a single click! Save those frustrating 🖱️ clicks!
 
+![Screenshot](./icons/demo-ss.png)
+
 ## Features
 
 - Download all the drive files in a Google Classroom announcement
