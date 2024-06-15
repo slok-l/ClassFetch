@@ -3,14 +3,26 @@
   <head>
     <title>Drive File Downloader</title>
     <link rel="stylesheet" href="../styles/styles.css" />
+    <meta charset="UTF-8" />
   </head>
   <body>
-    <div class="header-icon">
-      <img src="../icons/128.png" alt="classroom-downloader">
-      <h1>Classroom Downloader</h1>
-    </div>
-    <h3 style="font-size: large;">Available Files:</h3>
-    <ul id="fileList"></ul>
+      <div class="header-icon">
+        <div>
+          <img src="../icons/128.png" alt="classroom-downloader" class="logo" />
+          <h1 class="main-heading">ClassFetch</h1>
+        </div>
+        <div>
+          <a href="https://github.com/deeptejd/classfetch/"
+          ><img
+            src="../icons/github-mark.png"
+            alt="github logo"
+            class="github-logo"
+        /></a>
+        </div>
+      </div>
+    </a>
+    <h3 style="font-size: large">Available Files:</h3>
+    <ul id="fileList" class="fileList"></ul>
     <div class="flex-btn">
       <button id="downloadSelected" class="primary-btn btn-left">
         Download Selected

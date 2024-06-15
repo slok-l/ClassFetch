@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-size: medium;
 }
 
@@ -10,6 +10,9 @@ li {
     align-items: center;
     margin: 5px 0;
     width: 100%;
+    cursor: pointer;
+    padding: 5px 0;
+    overflow: hidden;
 }
 
 li span {
@@ -24,10 +27,7 @@ li input[type="checkbox"] {
     height: 18px;
     width: 18px;
     accent-color: rgb(125, 229, 125);
-}
-
-li input[type="checkbox"]:checked {
-    background-color: greenyellow;
+    /* This is not supported by the samsung browser, who uses it anyways */
 }
 
 .primary-btn {
@@ -38,10 +38,13 @@ li input[type="checkbox"]:checked {
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+    font-weight: bold;
 }
 
 .primary-btn:hover {
-    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:
+        0 10px 12px 0 rgba(0, 0, 0, 0.24),
+        0 10px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-left {
@@ -49,9 +52,10 @@ li input[type="checkbox"]:checked {
 }
 
 .flex-btn {
-    padding-left: 0px;
     display: flex;
     flex-direction: row;
+    margin: 5px 0;
+    padding-left: 0px;
 }
 
 body {
@@ -60,27 +64,44 @@ body {
     background-color: #e1e3ff;
 }
 
+.fileList,
 ul {
+    width: 350px;
+    max-height: 450px;
+    overflow-y: auto;
     list-style-type: none;
+    overflow-x: hidden;
     padding: 0;
 }
 
 .header-icon {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    /* height: fit-content; */
     align-items: center;
     border-bottom: 1px solid black;
     padding-bottom: 15px;
 }
 
-.header-icon>img {
+.header-icon>div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
     height: 50px;
     width: 50px;
     margin-right: 15px;
 }
 
-.header-icon>h1 {
-    font-size: large;
+.github-logo {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+
+.main-heading {
+    font-size: larger;
 }
