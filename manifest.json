@@ -32,5 +32,10 @@
       "matches": ["https://classroom.google.com/*"],
       "js": ["./scripts/content.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "classfetch@astrodeeptej"
+    }
+  }
 }
