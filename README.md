@@ -4,6 +4,8 @@
 
 A browser extension that allows you to bulk download files from Google Classroom in a single click! Save those frustrating 🖱️ clicks!
 
+<a  rel="noopener" href="https://www.producthunt.com/posts/classfetch?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-classfetch" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=841008&theme=light&t=1738484122639" alt="ClassFetch - A&#0032;browser&#0032;extension&#0032;to&#0032;bulk&#0032;download&#0032;files&#0032;from&#0032;G&#0045;Classroom&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ![Screenshot](./icons/demo-ss.png)
 
 ## Features
