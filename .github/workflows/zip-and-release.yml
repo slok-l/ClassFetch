@@ -1,0 +1,32 @@
+name: Zip and Release on Push
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  zip-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create ZIP
+        run: |
+          mkdir classfetch
+          cp -r * classfetch/
+          zip -r classfetch-v1.${{github.run_number}}.${{github.run_attempt}}.zip classfetch -x "classfetch/README.md" "classfetch/.gitignore"
+
+      - name: Push as a github release
+        uses: ncipollo/release-action@v1
+        with:
+          name: "Classfetch v1.${{ github.run_number }}.${{ github.run_attempt }}"
+          artifacts: classfetch-v1.${{github.run_number}}.${{github.run_attempt}}.zip
+          tag: v0.${{github.run_number}}.${{github.run_attempt}}
+          
+  
+
