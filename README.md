@@ -1,12 +1,19 @@
-![ClassFetch](./icons/48.png)
+![Promo Title Edge Large (1)](https://github.com/user-attachments/assets/9ea407c4-3a69-4b30-b242-d5b58e0070b9)
+<div style="display: flex; align-items: center; gap: 12px;">
+  <a rel="noopener" href="https://www.producthunt.com/posts/classfetch?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-classfetch" target="_blank">
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=841008&theme=light&t=1738484122639" 
+         alt="ClassFetch on Product Hunt" 
+         style="width: 250px; height: 54px;" width="250" height="54" />
+  </a>
 
-# ClassFetch
+  <a href="https://github.com/DeeptejD/ClassFetch/releases/latest" target="_blank" rel="noopener">
+    <img src="https://github.com/user-attachments/assets/916f11af-802d-46be-a709-dab369cedb20" 
+         alt="Download Latest Release" />
+  </a>
+</div>
 
-A browser extension that allows you to bulk download files from Google Classroom in a single click! Save those frustrating 🖱️ clicks!
 
-<a  rel="noopener" href="https://www.producthunt.com/posts/classfetch?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-classfetch" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=841008&theme=light&t=1738484122639" alt="ClassFetch - A&#0032;browser&#0032;extension&#0032;to&#0032;bulk&#0032;download&#0032;files&#0032;from&#0032;G&#0045;Classroom&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
-![Screenshot](./icons/demo-ss.png)
+#### Download all your Google Classroom files in one click! This browser extension lets you bulk download attachments from assignments and posts, saving you from the hassle of opening each file manually or relying on tedious hacks. 'Fast, simple, efficient'.
 
 ## Features
 
@@ -25,6 +32,8 @@ A browser extension that allows you to bulk download files from Google Classroom
 5. Pin the extension for easier access
 
 ## Usage
+
+![Group 23](https://github.com/user-attachments/assets/fa2f63ad-37b4-46c4-972b-d96030db7f97)
 
 1. Open the Google Classroom announcement where your teacher has attached multiple files
 2. While this page is open, click on the 'ClassFetch' exntension. Your files should now be listed along with a checkbox on the left
