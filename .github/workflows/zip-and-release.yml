@@ -17,8 +17,8 @@ jobs:
 
       - name: Create ZIP
         run: |
-          mkdir classfetch
-          cp -r * classfetch/
+          mkdir classfetch-release
+          cp -r * classfetch-release/
           zip -r classfetch-v1.${{github.run_number}}.${{github.run_attempt}}.zip classfetch -x "classfetch/README.md" "classfetch/.gitignore"
 
       - name: Push as a github release
