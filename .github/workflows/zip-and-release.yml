@@ -17,9 +17,9 @@ jobs:
 
       - name: Create ZIP
         run: |
-          mkdir classfetch-release
-          cp -r * classfetch-release/
-          zip -r classfetch-v1.${{github.run_number}}.${{github.run_attempt}}.zip classfetch -x "classfetch/README.md" "classfetch/.gitignore"
+          mkdir classfetch
+          cp -r icons scripts styles views manifest.json classfetch/
+          zip -r classfetch-v1.${{github.run_number}}.${{github.run_attempt}}.zip classfetch
 
       - name: Push as a github release
         uses: ncipollo/release-action@v1
