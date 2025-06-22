@@ -1,16 +1,6 @@
 ![Promo Title Edge Large (1)](https://github.com/user-attachments/assets/9ea407c4-3a69-4b30-b242-d5b58e0070b9)
-<div style="display: flex; align-items: center; gap: 12px;">
-  <a rel="noopener" href="https://www.producthunt.com/posts/classfetch?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-classfetch" target="_blank">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=841008&theme=light&t=1738484122639" 
-         alt="ClassFetch on Product Hunt" 
-         style="width: 250px; height: 54px;" width="250" height="54" />
-  </a>
+[![Edge Add-on](https://img.shields.io/badge/Edge%20Add--on-ClassFetch-blue?logo=microsoftedge&logoColor=white&style=for-the-badge)](https://microsoftedge.microsoft.com/addons/detail/classfetch/ffmompjmgnnleondhldhdmekfcbjjnii) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-ClassFetch-ff3c00?logo=product-hunt&logoColor=white&style=for-the-badge)](https://www.producthunt.com/posts/classfetch) [![GitHub Release](https://img.shields.io/github/v/release/deeptejd/classfetch?style=for-the-badge)](https://github.com/deeptejd/classfetch/releases)
 
-  <a href="https://github.com/DeeptejD/ClassFetch/releases/latest" target="_blank" rel="noopener">
-    <img src="https://github.com/user-attachments/assets/916f11af-802d-46be-a709-dab369cedb20" 
-         alt="Download Latest Release" />
-  </a>
-</div>
 
 
 #### Download all your Google Classroom files in one click! This browser extension lets you bulk download attachments from assignments and posts, saving you from the hassle of opening each file manually or relying on tedious hacks. 'Fast, simple, efficient'.
@@ -40,7 +30,8 @@
 3. Select the files that you want to download and click the 'Download Selected' button. (This might take a while depending on the size of the files)
 4. Alternatively, select the 'Download All' button to download all the files that are currently being listed
 
-> Note: If your files are not showing up, try refreshing the Google Classroom website
+```Note: If your files are not showing up, try refreshing the Google Classroom website```
+
 
 ## Contributing
 
