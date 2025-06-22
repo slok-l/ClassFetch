@@ -4,8 +4,14 @@ on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
   pull_request:
     branches: [ "main" ]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
 
 permissions:
   contents: write
