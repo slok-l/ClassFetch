@@ -23,7 +23,7 @@
 
 ## Usage
 
-![Group 23](https://github.com/user-attachments/assets/fa2f63ad-37b4-46c4-972b-d96030db7f97)
+![Demo Screenshot](https://github.com/user-attachments/assets/9e8112b9-e25f-41d3-bf19-54f754e2c616)
 
 1. Open the Google Classroom announcement where your teacher has attached multiple files
 2. While this page is open, click on the 'ClassFetch' exntension. Your files should now be listed along with a checkbox on the left
@@ -37,6 +37,3 @@
 
 Pull requests are welcome, there's so much that could be added to make this extension better for everyone! For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
