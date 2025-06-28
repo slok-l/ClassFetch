@@ -29,11 +29,15 @@
 2. While this page is open, click on the 'ClassFetch' exntension. Your files should now be listed along with a checkbox on the left
 3. Select the files that you want to download and click the 'Download Selected' button. (This might take a while depending on the size of the files)
 4. Alternatively, select the 'Download All' button to download all the files that are currently being listed
-
-```Note: If your files are not showing up, try refreshing the Google Classroom website```
-
+> Scroll down for FAQs (Common issue: Downloading ```.htm``` files)
 
 ## Contributing
 
 Pull requests are welcome, there's so much that could be added to make this extension better for everyone! For major changes, please open an issue first to discuss what you would like to change.
 
+## FAQ
+### 1. My files arent showing up in the extension even if they are clearly visible in the classroom stream
+If this happens, try refreshing your classroom page. If the files still don't show up then check if they are indeed google drive files. This extension only works with google drive files for now, which means google slides or other files will not show up. This will be added in a future release so keep an eye out for a new release.
+
+### 2. The extension downloads ```.htm``` files instead of the actual files, and says ```No permissions```
+This happens when the owner of the file (likely your prof) manually unchecked the permission that allows you to download the files. Talk to the owner of the file and ask them to enable download permissions. See [this issue response](https://github.com/DeeptejD/ClassFetch/issues/1#issuecomment-3014991188) for a detailed explanation on how to do just that.
