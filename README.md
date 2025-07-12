@@ -1,5 +1,5 @@
 ![Promo Title Edge Large (1)](https://github.com/user-attachments/assets/9ea407c4-3a69-4b30-b242-d5b58e0070b9)
-[![Edge Add-on](https://img.shields.io/badge/Edge%20Add--on-ClassFetch-blue?logo=microsoftedge&logoColor=white&style=for-the-badge)](https://microsoftedge.microsoft.com/addons/detail/classfetch/ffmompjmgnnleondhldhdmekfcbjjnii) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-ClassFetch-ff3c00?logo=product-hunt&logoColor=white&style=for-the-badge)](https://www.producthunt.com/posts/classfetch) [![GitHub Release](https://img.shields.io/github/v/release/deeptejd/classfetch?style=for-the-badge)](https://github.com/deeptejd/classfetch/releases)
+[![Edge Add-on](https://img.shields.io/badge/Edge%20Add--on-ClassFetch-blue?logo=microsoftedge&logoColor=white&style=plastic)](https://microsoftedge.microsoft.com/addons/detail/classfetch/ffmompjmgnnleondhldhdmekfcbjjnii) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-ClassFetch-ff3c00?logo=product-hunt&logoColor=white&style=plastic)](https://www.producthunt.com/posts/classfetch) [![GitHub Release](https://img.shields.io/github/v/release/deeptejd/classfetch?style=plastic)](https://github.com/deeptejd/classfetch/releases)
 
 
 
